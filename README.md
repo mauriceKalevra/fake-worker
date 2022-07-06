@@ -2,7 +2,7 @@
 
 Simple bash script that allows to create and push a bewished amount of fake commits, by writing random strings to a file..  
 
-This way you can always have a full contribution graph to brag with...  
+This way you can always have a full contribution graph without actually working for it...  
 
 Am I bored?  
 YES
@@ -13,5 +13,5 @@ YES
 **Run**
 
 cd fake-worker  
-chmod a+x worker.sh
+chmod a+x worker.sh  
 ./worker
