@@ -16,10 +16,10 @@ function randomChange() {
 
 function execTimes() {
 
-	echo "Height of skyscraper :"
+	echo "Enter amount of fake commits: "
 	sleep 1
 	read times
-	echo -e "Building skypscraper, $times commits tall...\n"
+	echo -e "Creating $times fake commits and push them...\n"
 	sleep 2
 	for ((i=0; i<=$times-1;i++)); do
 		randomChange
