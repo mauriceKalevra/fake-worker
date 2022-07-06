@@ -8,7 +8,7 @@ function randomChange() {
 	tr -dc A-Za-z0-9 < /dev/urandom | head -c ${l} | xargs>skyline.txt
 
 	git add .
-	git commit -m "build Github Skyline"
+	git commit -m "lots of smart changes:"
 	git push
 	echo "------------------- fake commit pushed ------------------"
 	sleep 2 
