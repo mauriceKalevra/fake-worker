@@ -10,7 +10,7 @@ function randomChange() {
 	git add .
 	git commit -m "build Github Skyline"
 	git push
-	echo "------------------- Floor built ------------------"
+	echo "------------------- fake commit pushed ------------------"
 	sleep 2 
 }
 
