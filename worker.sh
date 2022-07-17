@@ -14,7 +14,7 @@ function randomChange() {
 	sleep 2 
 }
 
-function execTimes() {
+function main() {
 
 	echo "Enter amount of fake commits: "
 	sleep 1
@@ -26,4 +26,4 @@ function execTimes() {
 	done
 }
 
-execTimes
+main
