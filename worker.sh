@@ -26,4 +26,5 @@ function main() {
 	done
 }
 
+print("Test")
 main
