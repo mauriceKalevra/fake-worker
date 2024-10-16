@@ -25,6 +25,4 @@ function main() {
 		randomChange
 	done
 }
-
-print("Test")
 main
